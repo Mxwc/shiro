@@ -24,7 +24,7 @@ public class App {
         try {
             subject.login(token);
             if (subject.isAuthenticated()) {
-                System.out.println("登陆成功1");
+                System.out.println("登陆成功");
             }
         } catch (AuthenticationException e) {
                 System.out.println("登陆失败");
